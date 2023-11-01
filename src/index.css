@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  
+}
+
+div.start{
+  background-image: url(./images/bg-intro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25% /*1080px/1920px*100 */;
+  background-color: white;
+   
+  /*--size: 50px;
+  --p: 25px;
+  --R: 55.9px /*sqrt(var(--size)*var(--size) + var(--p)*var(--p))*/;
+    
+  /*.box {
+    --size: 50px;
+    --p: 25px;
+    --R: 55.9px /*sqrt(var(--size)*var(--size) + var(--p)*var(--p))*/;
+    
+    /*height: 200px;
+  
+    -webkit-mask:
+      radial-gradient(var(--R) at 50% calc(100% - (var(--size) + var(--p))),blue 99%,#0000 101%) calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
+      radial-gradient(var(--R) at 50% calc(100% + var(--p)),#0000 99%,red 101%) 50% calc(100% - var(--size))/calc(4*var(--size)) 100% repeat-x;
+    background:linear-gradient(90deg,red,blue);  
+    border: none;
+  }
+  
+  -webkit-mask:
+    radial-gradient(var(--R) at 50% calc(100% - (var(--size) + var(--p))),blue 99%,#0000 101%) calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
+    radial-gradient(var(--R) at 50% calc(100% + var(--p)),#0000 99%,red 101%) 50% calc(100% - var(--size))/calc(4*var(--size)) 100% repeat-x; 
+  border: none;*/
+  
+}
+
+div.footer{
+  background-image: url(./images/bg-footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height:0;
+  padding-top: 22.7%/*436px/1920px*100 */;
+  bottom: 0;
+}
+
+div.snoopy{
+  clip-path: circle(40% at 45% 50%);
+}
+
+div.portrait{
+  clip-path: circle(40% at 44.3% 50%);
+}
+
+div.footer{
+  background-color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1{
+  color: rgb(143,179,57);
+}
