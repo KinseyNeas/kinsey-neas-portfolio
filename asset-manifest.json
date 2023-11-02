@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kinsey-neas-portfolio/static/css/main.f5d5b03b.css",
-    "main.js": "/kinsey-neas-portfolio/static/js/main.cddf9c3c.js",
+    "main.js": "/kinsey-neas-portfolio/static/js/main.86f24d67.js",
     "static/js/787.128fc6e9.chunk.js": "/kinsey-neas-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/paint-portrait.png": "/kinsey-neas-portfolio/static/media/paint-portrait.fe8a90cbd08c894f3ed9.png",
     "static/media/altitude-poster.png": "/kinsey-neas-portfolio/static/media/altitude-poster.c7fd1b535be241df60de.png",
@@ -36,11 +36,11 @@
     "static/media/logo.svg": "/kinsey-neas-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/kinsey-neas-portfolio/index.html",
     "main.f5d5b03b.css.map": "/kinsey-neas-portfolio/static/css/main.f5d5b03b.css.map",
-    "main.cddf9c3c.js.map": "/kinsey-neas-portfolio/static/js/main.cddf9c3c.js.map",
+    "main.86f24d67.js.map": "/kinsey-neas-portfolio/static/js/main.86f24d67.js.map",
     "787.128fc6e9.chunk.js.map": "/kinsey-neas-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f5d5b03b.css",
-    "static/js/main.cddf9c3c.js"
+    "static/js/main.86f24d67.js"
   ]
 }
